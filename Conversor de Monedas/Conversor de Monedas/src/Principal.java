@@ -21,7 +21,7 @@ public class Principal {
 
             opcion = teclado.nextInt(); // Esto tomara el valor de opcion para ejecutar el menu
 
-            switch (ocpion){
+            switch (opcion){
                 case 1:
                     // llamar al metodo para ocnvertir
                     break;
@@ -44,6 +44,6 @@ public class Principal {
                     System.out.println("Opción no valida");
             }
         }
-        teclado close();
+        teclado.close();
     }
 }

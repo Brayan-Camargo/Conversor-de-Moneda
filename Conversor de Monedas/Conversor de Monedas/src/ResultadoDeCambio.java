@@ -4,15 +4,21 @@ public class ResultadoDeCambio {
     private double valorDeTasaConversion;
 
     private double cantidadAConvertir;
-    private double resultaedoConversion;
+    private double resultadoConversion;
 
     //Aqui generaremos el constructor para inicializar con la API
-    public Transaccion(String origen, String destino, double tasa){
+    public ResultadoDeCambio(String origen, String destino, double tasa){
         this.monedaOrigen = origen;
         this.monedaResultado = destino;
         this.valorDeTasaConversion = tasa;
     }
-    
+
+    //Esta es la logica para calcular el resultado
+    public void calcularResultado() {
+        // Aplicamos la formula cantidad * tasa = resultado
+        double resultado = this.cantidadAConvertir * this.valorDeTasaConversion;
+        setResultadoConversion(resultado);
+    }
 
     public String getMonedaOrigen() {
         return monedaOrigen;
@@ -46,11 +52,11 @@ public class ResultadoDeCambio {
         this.cantidadAConvertir = cantidadAConvertir;
     }
 
-    public double getResultaedoConversion() {
-        return resultaedoConversion;
+    public double getResultadoConversion() {
+        return resultadoConversion;
     }
 
-    public void setResultaedoConversion(double resultaedoConversion) {
-        this.resultaedoConversion = resultaedoConversion;
+    public void setResultadoConversion(double resultadoConversion) {
+        this.resultadoConversion = resultadoConversion;
     }
 }
