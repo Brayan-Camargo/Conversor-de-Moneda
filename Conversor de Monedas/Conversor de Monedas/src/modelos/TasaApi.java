@@ -14,4 +14,12 @@ public class TasaApi {
     public String getResult() {
         return result;
     }
+
+    public String getBase_code() {
+        return base_code;
+    }
+
+    public String getTarget_code() {
+        return target_code;
+    }
 }
