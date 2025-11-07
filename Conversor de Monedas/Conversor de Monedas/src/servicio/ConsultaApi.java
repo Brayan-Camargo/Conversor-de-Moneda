@@ -10,7 +10,6 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class ConsultaApi {
-
     //Esto es la clave API y con esto la llamas
     private final String API_KEY = "7f6e829e8a0b79ef0407743f";
 

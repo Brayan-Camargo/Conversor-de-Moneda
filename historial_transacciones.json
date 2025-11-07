@@ -1,0 +1,42 @@
+{
+  "monedaOrigen": "USD",
+  "monedaResultado": "MXN",
+  "valorDeTasaConversion": 18.584,
+  "cantidadAConvertir": 100.0,
+  "resultadoConversion": 1858.3999999999999
+}
+{
+  "monedaOrigen": "MXN",
+  "monedaResultado": "USD",
+  "valorDeTasaConversion": 0.05381,
+  "cantidadAConvertir": 8000.0,
+  "resultadoConversion": 430.47999999999996
+}
+{
+  "monedaOrigen": "MXN",
+  "monedaResultado": "ARS",
+  "valorDeTasaConversion": 77.8839,
+  "cantidadAConvertir": 1500.0,
+  "resultadoConversion": 116825.84999999999
+}
+{
+  "monedaOrigen": "ARS",
+  "monedaResultado": "MXN",
+  "valorDeTasaConversion": 0.01284,
+  "cantidadAConvertir": 1500.0,
+  "resultadoConversion": 19.26
+}
+{
+  "monedaOrigen": "MXN",
+  "monedaResultado": "GTQ",
+  "valorDeTasaConversion": 0.412,
+  "cantidadAConvertir": 500.0,
+  "resultadoConversion": 206.0
+}
+{
+  "monedaOrigen": "GTQ",
+  "monedaResultado": "MXN",
+  "valorDeTasaConversion": 2.4269,
+  "cantidadAConvertir": 500.0,
+  "resultadoConversion": 1213.4499999999998
+}
