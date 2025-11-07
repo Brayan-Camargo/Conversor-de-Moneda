@@ -1,3 +1,5 @@
+package modelos;
+
 public class ResultadoDeCambio {
     private String monedaOrigen;
     private String monedaResultado;
